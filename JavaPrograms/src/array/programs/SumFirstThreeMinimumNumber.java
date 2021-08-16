@@ -1,3 +1,4 @@
+package array.programs;
 
 public class SumFirstThreeMinimumNumber {
 

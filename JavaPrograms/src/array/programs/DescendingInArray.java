@@ -1,7 +1,5 @@
-
-public class FindMinValuePresentInArray {
-
-
+package array.programs;
+public class DescendingInArray {
 	public static void main(String[] args) {
 		int a[]= {20,30,10,15,5};
 
@@ -19,9 +17,10 @@ public class FindMinValuePresentInArray {
 			}
 
 		}
-		System.out.println(a[a.length-1]);
-
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.println(a[i]);
+		}
 	}
 
 }
-

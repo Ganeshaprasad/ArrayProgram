@@ -1,4 +1,8 @@
-public class DescendingInArray {
+package array.programs;
+
+public class SumOfFirstMaxNum {
+
+
 	public static void main(String[] args) {
 		int a[]= {20,30,10,15,5};
 
@@ -16,10 +20,15 @@ public class DescendingInArray {
 			}
 
 		}
-		for(int i=0;i<a.length;i++)
+		int sum=0;
+		for(int i=0;i<3;i++)
 		{
-			System.out.println(a[i]);
+			sum=sum+a[i];
 		}
+		System.out.println(sum);
 	}
 
 }
+
+
+

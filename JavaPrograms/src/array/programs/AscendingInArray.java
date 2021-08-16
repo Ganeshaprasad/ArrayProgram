@@ -1,7 +1,7 @@
+package array.programs;
+import java.util.Iterator;
 
-public class SumOfFirstMaxNum {
-
-
+public class AscendingInArray {
 	public static void main(String[] args) {
 		int a[]= {20,30,10,15,5};
 
@@ -9,7 +9,7 @@ public class SumOfFirstMaxNum {
 		{
 			for(int j=i+1;j<a.length;j++)
 			{
-				if(a[i]<a[j])
+				if(a[i]>a[j])
 				{
 					int temp=a[i];
 					a[i]=a[j];
@@ -19,15 +19,10 @@ public class SumOfFirstMaxNum {
 			}
 
 		}
-		int sum=0;
-		for(int i=0;i<3;i++)
+		for(int i=0;i<a.length;i++)
 		{
-			sum=sum+a[i];
+			System.out.println(a[i]);
 		}
-		System.out.println(sum);
 	}
 
 }
-
-
-
